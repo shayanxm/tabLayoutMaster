@@ -21,6 +21,7 @@ public class TabAdapter extends FragmentStatePagerAdapter {
     public void addFragment(Fragment fragment, String title) {
         mFragmentList.add(fragment);
         mFragmentTitleList.add(title);
+        int a =5;
     }
     @Nullable
     @Override
